@@ -74,4 +74,5 @@ def home():
     return render_template_string(HTML_TEMPLATE,data=STUDY_DATA)
 
 if __name__ =="__main__":
-    app.run(debug=True)
+    # '0.0.0.0' makes the server publicly available
+    app.run(host='0.0.0.0',port=5000, debug=True)
