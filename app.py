@@ -3,8 +3,8 @@ from flask import Flask,render_template_string
 app = Flask(__name__)
 
 # --- THE CONTENT (Your Study Material)--- 
-STUDY_DATA = { "subject": "ICSE Computer Applications","chapters": ["OOP Concepts","User-Defined Methods","Constructors","Library Classes","Encapsulation","Arrays","String Handling"],"pyqs": [{"year": "2025 Specimen (Must Read!)","link": "https://static.collegedekho.com/media/uploads/2024/09/06/com-app.pdf"},{"year": "2024","link": "https://www.selfstudys.com/files/pdf/icse/previous-year-paper/class-10/computer-applications/ICSE-Class-10-Computer-Applications-Question-paper-2024.pdf"},{"year": "2023","link": "https://www.oswaal360.com/pluginfile.php/10939/mod_folder/content/0/Latest%20Board%20Papers%20Files/CISCE%20Class%2010/ICSE%20X%20Computer%20Paper-2023.pdf"},{"year": "2022 (Sem 1)","link": "https://static.collegedekho.com/media/django-summernote/2021-12-08/644acda1-c3b8-40a6-9d9a-33d0b298f556.pdf"}]}
-HTML_TEMPLATE = ''' 
+STUDY_DATA = { "subject": "ICSE Computer Applications","chapters": ["OOP Concepts","User-Defined Methods","Constructors","Library Classes","Encapsulation","Arrays","String Handling"],"pyqs": [{"year": "2025 Specimen (Must Read!)","link": "https://static.collegedekho.com/media/uploads/2024/09/06/com-app.pdf"},{"year": "2024","link": "https://static.collegedekho.com/media/uploads/2024/09/09/icse-2024-861-cta.pdf"},{"year": "2023","link": "https://www.oswaal360.com/pluginfile.php/10939/mod_folder/content/0/Latest%20Board%20Papers%20Files/CISCE%20Class%2010/ICSE%20X%20Computer%20Paper-2023.pdf"},{"year": "2022 (Sem 1)","link": "https://static.collegedekho.com/media/django-summernote/2021-12-08/644acda1-c3b8-40a6-9d9a-33d0b298f556.pdf"}]}
+HTML_TEMPLATE =  ''' 
 <!DOCTYPE html>
 <html>
 <head>
